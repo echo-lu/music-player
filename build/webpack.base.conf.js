@@ -33,8 +33,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.vue', '.json'],
+    //配置别名
     alias: {
-      '@': resolve('src'),
+      'src': resolve('src'),
+      'common':resolve('src/common')
+
     }
   },
   module: {

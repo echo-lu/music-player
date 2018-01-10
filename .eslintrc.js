@@ -20,6 +20,10 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    //不检测新文件末尾是否有空行
+    'eol-last':0,
+    //判断function的‘{’前面是否要加一个空格
+    'space-before-function-paren':0
   }
 }
